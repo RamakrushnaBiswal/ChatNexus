@@ -36,3 +36,9 @@
     color: #333;
     font-size: 14px;
 }
+@media screen and (max-width: 600px) {
+    .message__area{
+        padding: 16px;
+        height: 700px;
+    }
+}
