@@ -3,9 +3,9 @@ let name;
 let textarea = document.querySelector('#textarea')
 let send= document.querySelector('#send')
 let messageArea = document.querySelector('.message__area')
-// do {
-//     name = prompt('Please enter your name: ')
-// } while(!name)
+do {
+    name = prompt('Please enter your name: ')
+} while(!name)
 
 send.addEventListener('click', (e) => {
     e.preventDefault()
